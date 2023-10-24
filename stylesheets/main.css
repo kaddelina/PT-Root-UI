@@ -30,6 +30,7 @@ body {
     margin-left: 120px;
 }
 
+
 .sign3 {
     width: 100%;
     margin-top: -335px;
@@ -52,6 +53,16 @@ body {
     margin-left: -690px;
 }
 
+.sign21text {
+    font-weight: light;
+    font-size: 50px;
+    text-align: center;
+    transform: rotate(-13deg);
+    position: relative;
+    margin-top: -65px;
+    margin-left: -670px;
+}
+
 .sign3text {
     font-weight: light;
     font-size: 50px;
@@ -59,7 +70,17 @@ body {
     transform: rotate(11.25deg);
     position: absolute;
     top: 340px;
-    left: 880px;
+    left: 890px;
+}
+
+.sign31text {
+    font-weight: light;
+    font-size: 50px;
+    text-align: center;
+    transform: rotate(11.25deg);
+    position: absolute;
+    top: 390px;
+    left: 875px;
 }
 
 /* экран2 */
@@ -598,7 +619,7 @@ a:hover {
     margin-top: -300px;
 }
 
-.author {
+.author1 {
     font-size: 30px;
     color: rgb(217, 217, 217);
     margin-top: -170px;
