@@ -1,0 +1,606 @@
+/* общее */
+p,h1,h2,a {
+    font-family: 'PT-Root-UI';
+    font-size: 40px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* экран1 */
+.background1 {
+    margin-left: -10px;
+    margin-top: -8px;
+}
+
+.background1 img{
+    width: 101%;
+}
+
+.sign1 {
+    width: 100%;
+    margin-top: -700px;
+    margin-left: 383px; 
+}
+
+.sign2 {
+    width: 100%;
+    margin-top: 75px;
+    margin-left: 120px;
+}
+
+.sign3 {
+    width: 100%;
+    margin-top: -335px;
+    margin-left: 785px;
+}
+
+.sign1text {
+    font-size: 120px;
+    margin-top: -460px;
+    margin-left: 450px;
+}
+
+.sign2text {
+    font-weight: light;
+    font-size: 50px;
+    text-align: center;
+    transform: rotate(-13deg);
+    position: relative;
+    margin-top: 190px;
+    margin-left: -690px;
+}
+
+.sign3text {
+    font-weight: light;
+    font-size: 50px;
+    text-align: center;
+    transform: rotate(11.25deg);
+    position: absolute;
+    top: 340px;
+    left: 880px;
+}
+
+/* экран2 */
+.background2 {
+    width: 100%;
+    margin-top: 280px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.security {
+    width: 100%;
+    margin-top: -580px;
+    margin-left: 700px;
+}
+
+.speachblock1 {
+    width: 100%;
+    margin-top: -620px;
+    margin-left: 380px;
+}
+
+.speachblock2 {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 200px;
+}
+
+.speachblock3 {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 290px;
+}
+
+.phrase1 {
+    font-size: 50px;
+    margin-top: -475px;
+    margin-left: 470px;
+}
+
+.phrase2 {
+    font-size: 50px;
+    margin-top: 110px;
+    margin-left: 270px;
+}
+
+.phrase3 {
+    font-size: 50px;
+    margin-top: 110px;
+    margin-left: 360px;
+}
+
+/* экран3 */
+.pass {
+    width: 100%;
+    margin-left: -10px;
+    margin-top: 125px;
+}
+
+.passtext {
+    font-size: 35px;
+    color: white;
+    transform: rotate(-21deg);
+    margin-top: -430px;
+    margin-left: 140px;
+}
+
+.infoblock {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -370px;
+    margin-left: 750px;
+}
+
+/* экран4 */
+.arm {
+    margin-top: 520px;
+    margin-left: -8px;
+}
+
+
+.box1 {
+    position: absolute;
+    top: 1850px;
+    left: 790px;
+}
+
+.box2 {
+    position: absolute;
+    top: 2160px;
+    left: 645px;
+}
+
+.box3 {
+    position: absolute;
+    top: 2500px;
+    left: 848px;
+}
+
+.box4 {
+    position: absolute;
+    top: 2780px;
+    left: 543px;
+}
+
+/* экран5 */
+.speachblock4 {
+    margin-top: 400px;
+    margin-left: 60px;
+}
+
+.speachblock5 {
+    margin-left: 1100px;
+}
+
+.phrase4{
+    font-size: 50px;
+    margin-top: -300px;
+    margin-left: 85px;
+}
+
+.phrase5{
+    font-size: 50px;
+    margin-top: 104px;
+    margin-left: 1200px;
+}
+
+.keys {
+    margin-left: -10px;
+    overflow: hidden;
+    width: 1444px;
+}
+
+.keys img{
+    width: 1444px;
+}
+
+
+/* экран6 */
+.infobox2 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.journal {
+    width: 1450px;
+    margin-left: -7px;
+}
+
+
+/* экран7 */
+.speachblock6 {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.speachblock7 {
+    margin-left: 1100px;
+    margin-top: 100px;
+}
+
+.phrase6 {
+    margin-top: -180px;
+    margin-left: 140px;
+}
+
+.phrase7 {
+    margin-top: -130px;
+    margin-left: 1180px;
+}
+
+.crossword {
+    margin-top: -120px;
+    margin-left: 140px;
+}
+
+/* экран8 */
+.this {
+    font-size: 70px;
+    margin-top: 200px;
+    margin-left: 60px;
+}
+
+.those {
+    font-size: 70px;
+    margin-top: -110px;
+    margin-left: 950px;
+}
+
+.infoblock3 {
+    margin-top: -130px;
+    margin-left: 130px;
+}
+
+.author {
+    margin-left: 1000px;
+}
+
+.books {
+    margin-left: 100px;
+}
+
+/* экран9 */
+.notification {
+    background-color:rgb(217, 217, 217);
+    width: 660px;
+    height: 250px;
+    margin-top: 250px;
+    margin-left: 60px;
+}
+
+.notification p {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.arm2 {
+    margin-top: -400px;
+    margin-left: 700px;
+}
+
+/* экран10 */
+.background3 img{
+    width: 110%;
+    margin-left: -13px;
+    margin-top: -100px;
+}
+
+.watching {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: -5000px;
+    margin-left: 130px;
+    margin-right: 130px;
+    position: relative;
+    z-index: 1;
+}
+
+.dashline {
+    margin-top: -300px;
+    margin-left: 550px;
+}
+
+/* экран11 */
+.root1 {
+    font-size: 37px;
+    color: white;
+    margin-top: 430px;
+}
+
+.root2 {
+    font-size: 37px;
+    color: white;
+    margin-top: 35px;
+}
+
+.block {
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    font-size: 150px;
+    font-family: 'PT-Root-UI';
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+}
+
+.blocksection {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.whiteblock {
+    height: 180px;
+    margin-right: 60px;
+    margin-left: 60px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+}
+
+.block1 {
+    height: 180px;
+    width: 190px;
+    background-color: black;
+    color: white;
+    font-size: 150px;
+    font-family: 'PT-Root-UI';
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    margin-top: -180px;
+}
+
+.blocksection1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.block2 {
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    font-size: 130px;
+    font-family: 'PT-Root-UI';
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+}
+
+/* экран12 */
+.window1 {
+    margin-top: 300px;
+    margin-left: 290px;
+    opacity: 20%;
+}
+
+.window2 {
+    margin-top: -450px;
+    margin-left: 220px;
+    opacity: 66%;
+}
+
+.window3 {
+    margin-top: -460px;
+    margin-left: 150px;
+    position: relative;
+    z-index: 3;
+}
+
+.windowtext1 {
+    margin-top: -280px;
+    margin-left: 190px;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    z-index: 4;
+}
+
+.windowtext2 {
+    margin-top: 64px;
+    margin-left: 850px;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    z-index: 4;
+}
+
+.window4 {
+    margin-top: 250px;
+    margin-left: 290px;
+    opacity: 20%;
+}
+
+.window5 {
+    margin-top: -300px;
+    margin-left: 360px;
+    opacity: 66%;
+}
+
+.window6 {
+    margin-top: -290px;
+    margin-left: 430px;
+    position: relative;
+    z-index: 3;
+}
+
+.windowtext3 {
+    margin-top: -280px;
+    margin-left: 473px;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    z-index: 4;
+}
+
+.windowtext4 {
+    margin-top: 160px;
+    margin-left: 1120px;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    z-index: 4;
+}
+
+/* экран12 */
+.textblock {
+    margin-top: 350px;
+    font-size: 42px;
+    color: rgb(119, 119, 119);
+    text-align: justify;
+}
+
+.arrows img{
+    width: 240px;
+}
+
+.arrow1 {
+    margin-top: -1120px;
+    position: relative;
+    z-index: 3;
+}
+
+.arrow2 {
+    margin-top: -1080px;
+    margin-left: -754px;
+    transform: rotate(270deg);
+    position: relative;
+    z-index: 3;
+}
+
+.arrow3 {
+    margin-left: 465px;
+    margin-top: 630px;
+    position: relative;
+    z-index: 3;
+}
+
+.arrow4 {
+    margin-top: -560px;
+    margin-left: 195px;
+    transform: rotate(270deg);
+    position: relative;
+    z-index: 3;
+}
+
+.arrow5 {
+    margin-top: -100px;
+    margin-left: 675px;
+    transform: rotate(270deg);
+    position: relative;
+    z-index: 3;
+}
+
+.arrow6 {
+    margin-left: 1182px;
+    margin-top: -100px;
+    position: relative;
+    z-index: 3;
+}
+
+.layer img{
+    margin-top: -350px;
+    margin-left: 240px;
+    position: relative;
+    z-index: 2;
+}
+
+.packman {
+    margin-left: 230px;
+    margin-top: -60px;
+}
+
+/* экран13 */
+.lastspeechbox img{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.lastspeechbox p {
+    font-size: 40px;
+    color: white;
+    margin-left: 120px;
+    margin-top: -350px;
+}
+
+.security3 img{
+    height: 70%;
+    margin-top: -300px;
+    margin-left: 850px;
+}
+
+/* экран14 */
+.row1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.row1 img, .row2 img{
+    border: 2px solid black;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* экран15 */
+.downloada a{
+    letter-spacing: 70px; 
+    font-size: 160px; 
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(94, 94, 94);
+}
+
+.downloada {
+    margin-top: -785px;
+    margin-left: 143px;
+}
+
+.downloadp {
+    letter-spacing: 70px; 
+    word-spacing: 65px;
+    font-size: 160px; 
+    margin-top: 105px;
+    margin-left: 300px;
+}
+
+.downloadp2 {
+    letter-spacing: 70px; 
+    font-size: 160px; 
+    margin-top: -200px;
+    margin-left: 1050px;
+}
+
+.lastbackground img{
+    margin-left: -10px;
+    margin-top: 80px;
+}
+
+.hse_logo img{
+    width: 500px;
+    margin-top: -300px;
+}
+
+.author {
+    font-size: 30px;
+    color: rgb(217, 217, 217);
+    margin-top: -170px;
+    margin-left: 1000px;
+}
